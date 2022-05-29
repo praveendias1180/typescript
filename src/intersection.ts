@@ -9,6 +9,6 @@ type Resizable = {
 type UIWidget = Draggable & Resizable
 
 let textBox: UIWidget = {
-    drag: () => void,
+    drag: () => {},
     resize: () => console.log('resize')
 }
