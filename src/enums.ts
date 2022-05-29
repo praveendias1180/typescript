@@ -1,4 +1,4 @@
-enum Size {Small = 1, Medium, Large}
+const enum Size {Small = 1, Medium, Large}
 
 let mySize: Size = Size.Medium
 
