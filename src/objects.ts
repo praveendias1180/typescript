@@ -1,6 +1,6 @@
 let employee: {
     readonly id: number,
-    name?: string
-} = { id: 1}
+    name?: string,
+    retire: (date: Date) => void
+} = { id: 1, name: 'Kamal' , retire: (date: Date) => date}
 
-employee.id = 3
