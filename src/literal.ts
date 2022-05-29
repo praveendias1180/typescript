@@ -1,1 +1,1 @@
-let quantity: 50 = 50
+let quantity: 50 | 100 | 150 = 100
