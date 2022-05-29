@@ -1,4 +1,6 @@
 let employee: {
-    id: number,
+    readonly id: number,
     name?: string
 } = { id: 1}
+
+employee.id = 3
