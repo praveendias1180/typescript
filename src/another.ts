@@ -3,6 +3,6 @@ let course = 'Typescript'
 let is_published = true
 let level
 
-function render(document){
+function render(document: any){
     console.log(document)
 }
